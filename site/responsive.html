@@ -12,7 +12,6 @@ body {
   background: powderblue;
 }
 
-/* Header/Blog Title */
 .header {
   background: lenin;
   padding: 30px;
@@ -25,13 +24,13 @@ body {
   font-size: 50px;
 }
 
-/* Style the top navigation bar */
+
 .navigatorbar {
   overflow: hidden;
   background-color: grey;
 }
 
-/* Style the topnav links */
+
 .navigatorbar a {
   float: right;
   display: block;
@@ -41,20 +40,19 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
+
 .navigatorbar a:hover {
   background-color: navy;
   color: grey;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+
 .leftcolumn {   
   float: left;
   width: 75%;
 }
 
-/* Right column */
+
 .rightcolumn {
   float: left;
   width: 25%;
@@ -62,37 +60,35 @@ body {
   padding-left: 25px;
 }
 
-/* Fake image */
 .fakeimg {
   background-color: lightblue;
   width: 100%;
   padding: 25px;
 }
 
-/* Add a card effect for articles */
+
 .card {
   background-color: lightgreen;
   padding: 25px;
   margin-top: 25px;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Footer */
+
 .footer {
   padding: 25px;
   text-align: center;
   background-color: lenin;
-  color:green;
+  color: green;
   margin-top: 25px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -100,7 +96,7 @@ body {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 400px) {
   .navigatorbar a {
     float: none;
@@ -125,19 +121,19 @@ body {
   <div class="leftcolumn">
     <div class="card">
       <p>HAPPY LIFE:</p>
-      <div class="fakeimg" style="height:200px;"><img src="happy.jpeg" alt="happy life"></div>
+      <div class="fakeimg" style="height:200px;"><img src="happy.jpg" alt="happy life" ></div>
       <p>Happiness looks different for everyone. For you, maybe it's being at peace with who you are or having a secure network of friends who accept you unconditionally or the freedom to pursue your deepest dreams. Regardless of your version of true happiness, living a happier, more satisfied life is within reach.</p>
     </div>
     <div class="card">
       <h2>SATISFIED LIFE:</h2>
-      <div class="fakeimg" style="height:200px;"><img src="satisfied.jpeg" alt="satisfied life"></div>
+      <div class="fakeimg" style="height:200px;"><img src="satisfied.jpg" alt="satisfied life"></div>
       <p>A satisfied life is better than a successful life. Because our success is measured by others, but our satisfaction is measured by our own soul, mind and heart. </p>
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>MEANINGFUL LIFE:</h2>
-      <div class="fakeimg" style="height:100px;"><img src="meaningful.jpeg" alt="meaningful life"></div>
+      <div class="fakeimg" style="height:100px;"><img src="meaningful.jpg" alt="meaningful life"></div>
       <p>It turns out that pursuing meaning may have more of an impact on long-term life satisfaction than pursuing happiness.</p>
     </div>
     <div class="card">
